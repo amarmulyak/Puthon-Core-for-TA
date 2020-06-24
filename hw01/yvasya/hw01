@@ -1,0 +1,34 @@
+'''
+Task1
+Define variables a and b. Read values a and b from console and calculate: a + b, a - b, a * b, a / b
+Output obtained results.
+
+Task2
+Output question “What is your name?“, “How old are you?“, Where do you live?“.
+Read the answer of user and output next information: “Hello, (answer(name))“,
+“Your age is  (answer(age))“, “You live in  (answer(city))“
+'''
+
+# Task1
+a = float(input("Enter first number: "))
+b = float(input("Enter second number: "))
+
+addition = a + b
+substraction = a - b
+multiplication = a * b
+division = a / b
+
+print("a + b equals to: " + str(addition))
+print("a - b equals to: " + str(substraction))
+print("a * b equals to: " + str(multiplication))
+print("a / b equals to: " + str(division))
+print("")
+
+#Task2
+
+name = input("What is your name? ")
+age =  input("How old are you? ")
+city = input("Where do you live? ")
+
+print("Hello, " + name + '\n' + "Your age is " + age + '\n' + "You live in " + city)
+print("")
